@@ -1,0 +1,29 @@
+/*
+  [CSS Index]
+  
+  ---
+  
+  Template Name: Rexbel - Photography Portfolio Template
+  Author:  ex-nihilo
+  Version: 1.0 - GLITCH
+*/
+
+
+/*
+  1. TEMPLATE BACKGROUNDS
+    1.1. glitch IMG BACKGROUND
+  2. additional styling
+*/
+
+
+/* 1. TEMPLATE BACKGROUNDS */
+/* 1.1. glitch IMG BACKGROUND */
+.glitch-img {
+background-image: url(../img/background/glitch-bg.jpg);
+}
+
+
+/* 2. additional styling */
+.overlay-dark-60:before {
+z-index: 10;
+}

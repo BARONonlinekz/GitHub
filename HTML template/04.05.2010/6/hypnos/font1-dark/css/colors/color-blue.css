@@ -1,0 +1,80 @@
+
+
+
+#royal_preloader.text .loader,
+.cl-effect a span::before,
+.big-text span,
+.about-box1:hover .about-box-icon,
+.about-box:hover .about-box-icon,
+ul.slimmenu li a.mPS2id-highlight,
+.facts-wrap h6,
+.team article p span,
+.list-social li.icon-soc a,
+#sync1 .item h6,
+.portfolio-box h4,
+#button-con button span::before,
+#sync3 .item a,
+.services-top-text p span,
+.icon-services,
+.featured-price,
+.post-wrap .icon-blog,
+.video-text p,
+.footer a,
+.ajax-project-top-text p span,
+.footer .back-top{
+	color:#3498db;
+}
+ul.slimmenu li a:hover {
+    border-bottom:1px solid #3498db;
+}
+ul.slimmenu li ul li a:hover {
+    border-bottom:1px solid #3498db;
+}
+.sub-text-line:after {
+    border-top:1px dotted #3498db;
+}
+.sub-text-line:before {
+    border-top:1px dotted #3498db;
+}
+.link-svgline a svg.link-svgline {
+	stroke: #3498db;
+}
+.link-svgline-getintouch p svg.link-svgline-getintouch {
+	stroke: #3498db;
+}
+#ajax-form textarea:focus,
+#ajax-form input:focus,
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	border-bottom:2px solid #3498db;
+}
+#sync4 .item:hover {
+	border:2px solid #3498db;
+}
+#sync4 .synced .item {
+	border:2px solid #3498db;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

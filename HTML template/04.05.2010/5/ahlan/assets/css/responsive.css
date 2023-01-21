@@ -1,0 +1,579 @@
+  /* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+
+.site-header #navbar > ul .sub-menu {
+    left: -163px;
+}
+.site-header #navbar > ul .sub-menu-2{
+    left:0px;
+}
+
+.about-shape-img {
+    position: absolute;
+    left: -118px;
+    top: 146px;
+    width: 127%;
+    height: 112%;
+}
+}
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1197px) {
+	.about-img {
+    position: relative;
+    z-index: 11;
+    text-align: center;
+}
+
+.about-img:before {
+    left: 0;
+
+}
+.about-img img {
+    max-width: 57%;
+}
+.about-title h2:after {
+    left: 10%;
+}
+.about-item {
+    padding-left: 0;
+    padding-top: 100px;
+}
+.cta-left h2 {
+    font-size: 34px;
+}
+.site-header #navbar > ul .sub-menu {
+    left: -163px;
+}
+.site-header #navbar > ul .sub-menu-2{
+    left:0px;
+}
+.about-area.about-style-2 .about-img img {
+    width: 50%;
+}
+.about-area.about-style-3 .about-img img {
+    width: 50%;
+}
+.about-area.about-style-2 .about-img {
+    text-align: center;
+}
+.about-area.about-style-2 .about-item {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    text-align: right;
+}
+.about-area.about-style-2 .about-title:before {
+    left: 75%;
+}
+.about-area.about-style-2 .about-title h2:before {
+    left: 90%;
+}
+.about-area.about-style-2 .about-title h2:after {
+    left: 90%;
+}
+.about-area.about-style-3 .about-img {
+    left: 0;
+    margin:auto;
+}
+
+
+.about-area.about-style-3 .about-item {
+    padding-left: 0;
+    padding-top:40px;
+}
+.about-shape-img,.about-area.about-style-2 .about-shape-img  {
+    position: absolute;
+    left: 102px;
+    top: 65px;
+    width: 83%;
+    height: 112%;
+}
+.about-shape-img, .about-area.about-style-3 .about-shape-img {
+    position: absolute;
+    left: 102px;
+    top: 48px;
+    width: 83%;
+    height: 112%;
+}
+}
+/* Normal desktop :991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.cta-left h2 {
+    font-size: 27px;
+}
+.btn-style-one .btn-style a {
+    padding: 10px 46px;
+    font-size: 15px;
+}
+.about-img img {
+    width: 75%;
+}
+.about-img {
+    text-align: center;
+}
+.about-img:before {
+    width: 734px;
+    height: 592px;
+    left: 0;
+}
+.about-item {
+    padding-left: 0;
+    text-align: center;
+}
+.about-title:before {
+    left: 36%;
+}
+.about-title h2:before {
+    left: 36%;
+}
+.about-title h2:after {
+    left: 48%;
+}
+.contact-wrap h2 {
+    text-align: center;
+}
+.contact-wrap h2:before {
+    left: 44%;
+}
+.contact-wrap p {
+    text-align: center;
+}
+.contact-wrap {
+    margin-top: 60px;
+}
+.contact-area form div {
+    text-align: center;
+}
+.about-area.about-style-2 .about-img img {
+    width: 66%;
+}
+.about-area.about-style-3 .about-img img {
+    width: 66%;
+}
+
+.about-area.about-style-2 .about-img {
+    text-align: center;
+}
+.about-area.about-style-2 .about-item {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    text-align: right;
+}
+.about-area.about-style-2 .about-title:before {
+    left: 67%;
+}
+.about-area.about-style-2 .about-title h2:before {
+    left: 86%;
+}
+.about-area.about-style-2 .about-title h2:after {
+    left:86%;
+}
+.about-area.about-style-3 .about-img {
+    margin:auto;
+}
+.about-area.about-style-3 .about-item {
+    padding-left: 0;
+    padding-top: 60px;
+}
+.about-shape-img{
+    position: absolute;
+    left: 6px;
+    top: 130px;
+    width: 98%;
+    height: 112%;
+}
+.about-area.about-style-2 .about-shape-img{
+    position: absolute;
+    left: 6px;
+    top: 130px;
+    width: 98%;
+    height: 112%;
+}
+.about-area.about-style-3 .about-shape-img {
+    position: absolute;
+    left: 6px;
+    top: 110px;
+    width: 98%;
+    height: 112%;
+}
+.breadcumb-wrap {
+    padding-top: 0px;
+}
+.hero {
+    height:700px;
+}
+.hero .slide {
+    height: 700px;
+  }
+}
+
+/* small mobile :576px. */
+
+@media (min-width: 576px) and (max-width: 767px) {
+.hero {
+    height:600px;
+}
+.hero .slide {
+    height: 600px;
+  }
+ .prt-item img{
+    width: 100%;
+ }
+ .about-img img {
+    max-width: 75%;
+}
+.about-img {
+    text-align: center;
+}
+
+.about-item {
+    padding-left: 0;
+    text-align: center;
+}
+.about-title:before {
+    left: 36%;
+}
+.about-title h2:before {
+    left: 36%;
+}
+.about-title h2:after {
+    left: 48%;
+}
+.contact-wrap h2 {
+    text-align: center;
+}
+.contact-wrap h2:before {
+    left: 44%;
+}
+.contact-wrap p {
+    text-align: center;
+}
+.contact-wrap {
+    margin-top: 60px;
+}
+.contact-area form div {
+    text-align: center;
+}
+.service-content {
+    max-width: 500px;
+    margin: auto;
+}
+.text-right {
+    text-align: center;
+}
+.site-header .navbar-header .navbar-brand {
+    font-size: 35px;
+}
+.about-area.about-style-2 .about-img img{
+    width: 66%;
+}
+
+.about-area.about-style-3 .about-img img{
+    width: 66%;
+}
+
+.about-area.about-style-2 .about-img {
+    text-align: center;
+}
+.about-area.about-style-2 .about-item {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    text-align: right;
+}
+.about-area.about-style-2 .about-title:before {
+    left: 67%;
+}
+.about-area.about-style-2 .about-title h2:before {
+    left: 86%;
+}
+.about-area.about-style-2 .about-title h2:after {
+    left:86%;
+}
+.service-item {
+    padding-top: 0px;
+}
+.about-area.about-style-3 .about-img:before {
+    width: 708px;
+    height: 574px;
+    left: 23px;
+    top: -15px;
+}
+.about-area.about-style-3 .about-item {
+    padding-left: 0;
+    padding-top: 40px;
+}
+.about-shape-img,.about-area.about-style-2 .about-shape-img {
+    position: absolute;
+    left: 6px;
+    top: 130px;
+    width: 98%;
+    height: 112%;
+}
+.about-shape-img,.about-area.about-style-3 .about-shape-img {
+    position: absolute;
+    left: 6px;
+    top: 110px;
+    width: 98%;
+    height: 112%;
+}
+.widget_sidebar {
+    margin-top: 60px;
+}
+.breadcumb-wrap {
+    padding-top: 0px;
+}
+.hero-style-1 .slide-caption {
+    z-index: 99;
+    padding-bottom: 40px;
+}
+}
+/* extra small mobile 320px. */
+
+@media (max-width: 575px) {
+
+.hero-style-1 .slide-caption h2, .hero-style-2 .slide-caption h2 {
+    font-weight: 700;
+    color: white;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+.about-item {
+    padding-left: 0;
+    padding-top: 60px;
+}
+.about-content h2 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.about-shape-img {
+    position: absolute;
+    left: 0;
+    top: 86px;
+    width: 100%;
+    height: 112%;
+}
+ .about-area.about-style-2 .about-shape-img {
+    position: absolute;
+    left: 0;
+    top: 115px;
+    width: 100%;
+    height: 112%;
+}
+ .about-area.about-style-3 .about-shape-img {
+    position: absolute;
+    left: 0;
+    top: 115px;
+    width: 100%;
+    height: 112%;
+}
+.service-item {
+    padding-top: 0px;
+}
+.section-padding {
+    padding: 70px 0;
+}
+.ptb-100-70{
+  padding:70px 0 30px;
+}
+.cta-left h2 {
+    font-size: 30px;
+    line-height: 32px;
+}
+.text-right {
+    text-align: center;
+}
+.contact-wrap h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-left: 0;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.contact-wrap h2:before {
+    left: 34%;
+}
+.contact-wrap p {
+    text-align: center;
+    padding-left: 0;
+}
+.contact-wrap {
+    margin-top: 60px;
+}
+.contact-area form div {
+    text-align: center;
+}
+.contact-wrap form input, .contact-wrap form select, .contact-wrap form textarea {
+    font-size: 14px;
+}
+.contact-area {
+    padding: 70px 0px 10px;
+}
+.contact-area form div {
+    padding: 0 5px 20px;
+}
+.footer-content ul li i {
+    font-size: 18px;
+    padding: 0 10px;
+}
+.service-wrap {
+    padding: 0 0;
+}
+.hero {
+    height: 450px;
+}
+  .hero .slide {
+    height: 450px;
+  }
+  .next-section {
+    bottom: 45px;
+}
+.shape-img {
+    bottom: -7px;
+}
+.hero-style-2 .shape-img {
+    bottom: -10px;
+}
+ .hero-style-2 .slide-caption h2,.hero-style-3 .slide-caption h2 {
+    line-height: 35px;
+}
+
+.hero-style-2 .slide-caption h2 span{
+    font-size: 25px;
+}
+.hero-style-2 .slide-caption p {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.hero-style-2 .next-section {
+    bottom: 45px;
+}
+.about-area.about-style-2 .about-img img {
+    width: 89%;
+}
+.about-area.about-style-3 .about-img img {
+    width: 89%;
+}
+
+.about-area.about-style-2 .about-img {
+    text-align: center;
+}
+.about-area.about-style-2 .about-item {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    text-align: right;
+}
+.about-area.about-style-2 .about-title:before {
+    left: 20%;
+}
+.about-area.about-style-2 .about-title h2:before {
+    left: 67%;
+}
+.about-area.about-style-2 .about-title h2:after {
+    left:67%;
+}
+.about-area.about-style-2 .about-content {
+    margin-bottom: 40px;
+}
+.about-area.about-style-3 .about-img {
+    margin:auto;
+}
+
+.about-area.about-style-3 .about-item {
+    padding-left: 0;
+    padding-top: 30px;
+}
+.about-area.about-style-3 .about-title h2:after {
+    left: 32%;
+}
+ .hero-style-1.hero-style-3 .slide-caption h2 span {
+    padding: 4px 0;
+    font-size: 25px;
+
+}
+.hero-style-1.hero-style-3 .slide-caption p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.hero-style-1.hero-style-3 .shape-img {
+    bottom: -4px;
+}
+.hero-style-1.hero-style-3 .next-section {
+    bottom: 30px;
+}
+.site-header .site-logo a:after {
+    left: -16px;
+    top: -1px;
+}
+.meta-share {
+    display: inline-flex;
+}
+.breadcumb-wrap h2 {
+    font-size: 35px;
+}
+.widget_sidebar {
+    margin-top: 30px;
+}
+.blog-top-meta {
+    display: block;
+}
+.breadcumb-wrap {
+    padding-top: 0px;
+}
+.about-title h2:after {
+    left: 28%;
+}
+.hero-style-2 .slide-caption h2, .hero-style-3 .slide-caption h2 {
+    line-height: 35px;
+    font-size: 28px;
+}
+.hero-style-2 .slide-caption p {
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 325px) and (max-width: 590px) {
+.hero-style-1 .slide-caption h2, .hero-style-2 .slide-caption h2 {
+    font-weight: 700;
+    color: white;
+    line-height: 60px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    margin:0;
+}
+
+.hero-style-1.hero-style-3 .slide-caption p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.hero-style-1 .slide-caption h2, .hero-style-2 .slide-caption h2 {
+    font-weight: 700;
+    color: white;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+.about-title h2:after {
+    left: 23%;
+}
+.hero-style-2 .slide-caption h2, .hero-style-3 .slide-caption h2 {
+    line-height: 45px;
+    font-size: 30px;
+}
+.hero-style-2 .slide-caption p {
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+}

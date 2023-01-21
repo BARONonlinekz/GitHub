@@ -1,0 +1,135 @@
+
+
+#royal_preloader.text .loader,
+.cl-effect a span::before,
+.big-text span,
+.about-box1:hover .about-box-icon,
+.about-box:hover .about-box-icon,
+ul.slimmenu li a.mPS2id-highlight,
+.facts-wrap h6,
+.team article p span,
+.list-social li.icon-soc a,
+#sync1 .item h6,
+.portfolio-box h4,
+#button-con button span::before,
+#sync3 .item a,
+.services-top-text p span,
+.icon-services,
+.featured-price,
+.post-wrap .icon-blog,
+.video-text p,
+.footer a,
+.ajax-project-top-text p span,
+.footer .back-top{
+	color:#e74c3c;
+}
+ul.slimmenu li a:hover {
+    border-bottom:1px solid #e74c3c;
+}
+ul.slimmenu li ul li a:hover {
+    border-bottom:1px solid #e74c3c;
+}
+.sub-text-line:after {
+    border-top:1px dotted #e74c3c;
+}
+.sub-text-line:before {
+    border-top:1px dotted #e74c3c;
+}
+.link-svgline a svg.link-svgline {
+	stroke: #e74c3c;
+}
+.link-svgline-getintouch p svg.link-svgline-getintouch {
+	stroke: #e74c3c;
+}
+#ajax-form textarea:focus,
+#ajax-form input:focus,
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	border-bottom:2px solid #e74c3c;
+}
+#sync4 .item:hover {
+	border:2px solid #e74c3c;
+}
+#sync4 .synced .item {
+	border:2px solid #e74c3c;
+} 
+
+
+
+
+/* #Blog and posts colors */
+
+
+.post-sidebar input:active,
+.post-sidebar input:focus,
+.leave-reply input:active,
+.leave-reply input:focus,
+.leave-reply textarea:active,
+.leave-reply textarea:focus {
+	background: #e74c3c;
+}
+.read-more p,
+.post-sidebar button,
+.link-recents a:hover{
+	color: #e74c3c;
+}
+.link-tag a:hover{
+	background: #e74c3c;
+	border-color:#e74c3c;
+}
+.post-sidebar button:hover {
+	background: #e74c3c;
+}
+.link-post,
+span.hei-text{ 
+	background: #e74c3c;
+}
+.link-post{ 
+	background: #e74c3c;
+}
+.link-post:hover h5{ 
+	color: #e74c3c;
+}
+.link-post:hover h5 span,
+.list-in-blog-content li span,
+.reply:hover,
+.post-content-com-top p span,
+.list-social-share li:hover.icon-soc-share a{ 
+	color: #e74c3c;
+}
+p.text-border-left{ 
+	border-left:3px solid #e74c3c;
+}
+button.post-comment{
+	color:#e74c3c;
+}
+button.post-comment:hover{
+	background: #e74c3c; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+
+i {
+	color: #f1c40f;
+	text-shadow: 0 0 10px #f1c40f, 
+		0 0 5px rgba(241,196,15, 0.41), 
+		0 0 30px rgba(241,196,15, 0.31), 
+		0 0 50px rgba(241,196,15, 0.11), 
+		5px 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+#royal_preloader.text .loader,
+.cl-effect a span::before,
+.big-text span,
+.about-box1:hover .about-box-icon,
+.about-box:hover .about-box-icon,
+ul.slimmenu li a.mPS2id-highlight,
+.facts-wrap h6,
+.team article p span,
+.list-social li.icon-soc a,
+#sync1 .item h6,
+.portfolio-box h4,
+#button-con button span::before,
+#sync3 .item a,
+.services-top-text p span,
+.icon-services,
+.featured-price,
+.post-wrap .icon-blog,
+.video-text p,
+.footer a,
+.ajax-project-top-text p span,
+.footer .back-top{
+	color:#f1c40f;
+}
+ul.slimmenu li a:hover {
+    border-bottom:1px solid #f1c40f;
+}
+ul.slimmenu li ul li a:hover {
+    border-bottom:1px solid #f1c40f;
+}
+.sub-text-line:after {
+    border-top:1px dotted #f1c40f;
+}
+.sub-text-line:before {
+    border-top:1px dotted #f1c40f;
+}
+.link-svgline a svg.link-svgline {
+	stroke: #f1c40f;
+}
+.link-svgline-getintouch p svg.link-svgline-getintouch {
+	stroke: #f1c40f;
+}
+#ajax-form textarea:focus,
+#ajax-form input:focus,
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	border-bottom:2px solid #f1c40f;
+}
+#sync4 .item:hover {
+	border:2px solid #f1c40f;
+}
+#sync4 .synced .item {
+	border:2px solid #f1c40f;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
