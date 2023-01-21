@@ -1,0 +1,414 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+
+$bodyColor: #444;
+
+$preBlue: #2aa1ec;
+$preYellow: #f0e68c;
+$prePink: #ffa0a0;
+$preGreen: #98fb98;
+$preWhite: #eee;
+
+
+
+body,html {
+  
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+    
+}
+
+body {
+  
+  background: url(http://bjoernkarmann.dk/mockup/img/large/bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  color: $bodyColor;
+  
+}
+
+.container {
+    
+  padding:  20px 10%;
+  
+}
+
+h1,
+h2{
+
+  font-family: "Ubuntu";
+  margin: 0.5em 0 0.1em 0;
+
+}
+
+h2 {
+  
+  margin-top: 0.1em;
+  margin-bottom: 2em;  
+  
+}
+
+
+$serif: "Merriweather", serif;
+$sans: "Lato", "Helvetica", "Segoe", sans-serif;
+$code: "Source Code Pro", "Consolas", monospace;
+.sublime {
+
+  min-height: 270px;
+  min-width: 200px;
+  max-width: 1000px;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #303030;
+  background-image: 
+    url(http://files.simey.me/sublime/sublime-bg-icons.png), 
+    url(http://files.simey.me/sublime/sublime-bg-expand.png), 
+    url(http://files.simey.me/sublime/sublime-bg-top.png),
+    url(http://files.simey.me/sublime/sublime-bg-bottom.png);
+  background-repeat: no-repeat, no-repeat, repeat-x, repeat-x;
+  background-position: top left, top right, top center, bottom center;
+
+  border-radius: 4px;
+  box-shadow: 0 10px 50px rgba(0,0,0,0.6);
+  text-shadow: none;
+
+  &--fullscreen {
+
+    position: fixed;
+
+    left: 2em;
+    right: 2em;
+    top: 2em;
+    bottom: 2em;
+    margin: 0;
+
+    width: auto;
+    height: auto;
+
+    max-width: none;
+    min-width: none;
+    max-height: none;
+    min-height: none;
+
+    z-index: 50;
+    transition: all 0.6s ease;
+
+    .sublime-project {
+
+      position: absolute;
+      width: auto;
+      height: auto;
+      left: 0;
+      right: 0;
+      top: 60px;
+      bottom: 25px;
+
+      overflow: auto;
+
+    }
+
+  }
+
+  &__button {
+
+    text-indent: -9999em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    border-radius: 10px;
+    top: 0;
+    left: 2px;
+
+    &--full {
+
+      left: auto;
+      right: 0;
+    }
+
+    &--maxi {
+
+      left: 42px;
+
+    }
+
+  }
+
+  &__title,
+  &__footer {
+
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+
+    height: 22px;
+    line-height: 22px;
+
+  }
+
+  &__title {
+
+    color: #333;
+    text-shadow: 0 1px 1px white;
+
+  }
+
+  &__footer {
+
+    color: #ccc;
+    font-weight: 300;
+    text-align: right;
+
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+    width: 150px;
+
+  }
+}
+
+.sublime-tabs {
+
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: url(http://files.simey.me/sublime/sublime-tabs-bg.png);    
+  overflow: hidden;
+
+  &__tab {
+
+    position: relative;
+    display: inline-block;
+    height: 29px;
+    line-height: 23px;
+    margin: 6px 0 0 20px;
+    z-index: 1;
+    padding-right: 20px;
+
+    background: url(http://files.simey.me/sublime/sublime-tab-x-dark.png);
+    background-repeat: repeat-x;
+
+    &:before,
+    &:after {
+
+      content: "";
+      position: absolute;
+      top: 0;
+      height: 100%;
+      background-repeat: no-repeat;
+
+    }
+
+    &:before {
+
+      width: 20px;
+      left: -20px;
+      background: url(http://files.simey.me/sublime/sublime-tab-l-dark.png);
+
+    }            
+
+    &:after {
+
+      width: 20px;
+      right: -20px;
+      background: url(http://files.simey.me/sublime/sublime-tab-r-dark.png);
+
+    }
+
+    &.active {
+
+      z-index: 2;
+      background: url(http://files.simey.me/sublime/sublime-tab-x.png);
+
+      &:before {
+
+        background: url(http://files.simey.me/sublime/sublime-tab-l.png);
+
+      }            
+
+      &:after {
+
+        background: url(http://files.simey.me/sublime/sublime-tab-r.png);
+
+      }
+
+    }
+
+  }
+
+
+  &__link,
+  &__link:visited {
+
+    font-size: 12px;
+    color: #ddd;
+    text-decoration: none;
+
+    display: inline-block;
+    position: relative;
+    line-height: 20px;
+
+    &:hover {
+
+      color: white;
+
+    }
+
+  }
+
+}
+
+.sublime-tabs__tab {
+
+  &--soon {
+
+    opacity: 0.8;
+
+    .sublime-tabs__link {
+
+      padding-right: 1.2em;
+      color: #999;
+
+      &:after {
+
+        content: "\25cf";
+
+        height: 1em;
+        line-height: 1em;
+        position: absolute;
+        right: -20px;
+        top: 50%;
+        margin-top: -0.5em;
+
+      }
+
+    }
+
+    @media screen and ( max-width: 500px ) {
+
+      display: none;
+
+    }
+
+  }
+
+}
+
+
+
+.sublime-project {
+
+  font-family: $code;
+  padding: 15px 10px 25px;
+
+  display: none;
+
+  &__title {
+
+    font-size: 1.3em;
+    font-weight: 900;
+    margin: 0 0 0 40px;
+    color: #eee;
+
+  }
+
+  &__code {
+
+    background: transparent!important;
+    padding: 0.5em 0 2em 0em;
+
+    &--indent {
+
+      padding: 0.5em 0 2em 1.8em;
+
+    }
+
+  }
+
+  &.active {
+
+    display: block;
+
+  }
+
+}
+
+
+
+
+
+
+
+/* desert scheme ported from vim to google prettify */
+pre.prettyprint { display: block; background-color: #333 }
+pre .nocode { background-color: none; color: #000 }
+pre .str { color: #ffa0a0 } /* string  - pink */
+pre .kwd { color: #f0e68c; font-weight: bold }
+pre .com { color: #87ceeb } /* comment - skyblue */
+pre .typ { color: #98fb98 } /* type    - lightgreen */
+pre .lit { color: #cd5c5c } /* literal - darkred */
+pre .pun { color: #fff }    /* punctuation */
+pre .pln { color: #fff }    /* plaintext */
+pre .tag { color: #f0e68c; font-weight: bold } /* html/xml tag    - lightyellow */
+pre .atn { color: #bdb76b; font-weight: bold } /* attribute name  - khaki */
+pre .atv { color: #ffa0a0 } /* attribute value - pink */
+pre .dec { color: #98fb98 } /* decimal         - lightgreen */
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+pre, code {
+
+  font-family: "Source Code Pro", "Consolas", "Courier New", monospace;
+
+}
+
+pre { 
+
+  font-size: 12px;
+  background: #303030;
+
+}
+
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 { 
+
+  list-style-type: decimal;
+
+}
+
+pre .yellow * { color: $preYellow!important; }
+pre .white * { color: $preWhite!important; }
+pre .green * { color: $preGreen!important; }
+pre .blue * { color: $preBlue!important; }
+pre .pink * { color: $prePink!important; }
+
+pre img {
+
+  vertical-align: top;
+  margin: 1.5em 0;
+  border-radius: 3px;
+
+}
+
+pre .copy-to-clipboard {
+
+
+}

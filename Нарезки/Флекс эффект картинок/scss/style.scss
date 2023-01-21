@@ -1,0 +1,160 @@
+@import 'https://fonts.googleapis.com/css?family=Economica';
+
+@mixin rotated-text($num-letters) {
+  $angle-span: 26deg;
+  $angle-offset: -13deg;
+$angle-per-char: $angle-span / $num-letters;
+  @for $i from 1 through $num-letters {
+    .char#{$i} {
+      transform: rotate($angle-offset + $angle-per-char * $i);
+    }
+  }
+}
+
+html, body{
+  margin: 0;
+  max-width: 100%;
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  &:hover{
+    & > .section{
+      filter: brightness(22%);
+    }
+    & > .section:hover{
+      filter: brightness(100%);
+    }
+  }
+  
+  .section{
+    flex-grow: 1;
+    position: relative;
+    height: 100%;
+    transition: all 0.4s;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    flex: 1;
+    
+    .cont_title{
+      position:relative;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      margin-top: 37vh;
+      /*.letter-container{
+        position: relative;
+        width: 2vw;
+        height: 100px;
+        position: relative;
+        margin: auto;
+        .lettering{
+        transition: all 0.3s;
+        color: white;
+        
+        span{
+          height: 10vw;
+          font-family: 'Economica', sans-serif;
+          font-size: 1.6vw;
+          text-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+          position: absolute;
+          width: 15px;
+          left: 0;
+          top: 0;
+          transform-origin: bottom center;
+        }
+        @include rotated-text(11);
+        }
+      }*/
+      h1{
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Economica', sans-serif;
+        text-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+        font-size: 3.5vw;
+        margin: 0;
+        transition: font-size 0.3s;
+        vertical-align: middle;
+      }
+      h3{
+        text-transform: uppercase;
+        font-family: 'Economica', sans-serif;
+        font-size: 1.3vw;
+        transition: all 0.3s;
+        color: white;
+        letter-spacing: 3px;
+        text-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+      }
+      
+    }
+    
+    .cont_desc{
+      position: relative;
+      display: block;
+      text-align: center;
+      width: 12vw;
+      height: auto;
+      margin: auto;
+      opacity: 0;
+      transition: opacity 0.8s, transform 0.7s, padding-top 0.9s;
+      padding-top: 6vh;
+      transform: scale(1);
+      p{
+        margin: 0;
+        font-family: 'Economica', sans-serif;
+        color: white;
+        font-size: 16px;
+      }
+    }
+    
+    &:hover{
+      flex-grow: 1.8;
+      transition: flex 0.2s;
+      
+      & > .cont_title h1{
+        font-size: 5.3vw;
+        transition: font-size 0.4s;
+      }
+      
+      & > .cont_title h3{
+        font-size: 1.6vw;
+        transition: all 0.4s;
+      }
+      
+      & > .cont_desc{
+        opacity: 1;
+        padding-top: 2vh;
+        transform: scale(1.5);
+        transition: opacity 0.7s, padding-top 0.5s, transform 0.1s;
+        
+        transition-delay: 0s, 0.1s, 0s;
+      }
+      
+    }
+    
+    &:nth-child(1){
+      background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Kenai-desktop.jpg") center;
+    }
+    &:nth-child(2){
+      background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Hawaii-desktop.jpg") center;
+    }
+    &:nth-child(3){
+      background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/de0b954d-ca76-41d3-ac3a-900c6bc25139.jpg") center;
+    }
+    &:nth-child(4){
+      background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Bryce-desktop.jpg") center;
+    }
+    &:nth-child(5){
+      background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Tortugas-desktop.jpg") center;
+    }
+  }
+}
